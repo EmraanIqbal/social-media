@@ -7,7 +7,7 @@ const UserSchema = new mongoose.Schema({
         min: 2,
         max: 50
     },
-    lasttName: {
+    lastName: {
         required: true,
         type: String,
         min: 2,
